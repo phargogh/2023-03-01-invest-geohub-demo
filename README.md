@@ -3,6 +3,8 @@ A demonstration of running InVEST on the GeoHub through Jupyter Notebooks
 
 ## Installation
 
+Open a terminal shell and execute the following:
+
 ```
 curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
 ./bin/micromamba create -y -c conda-forge -p ./env310 python=3.10 natcap.invest ipykernel geopandas rasterio folium matplotlib mapclassify
